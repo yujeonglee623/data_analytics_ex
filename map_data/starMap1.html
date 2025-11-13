@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50269dff7375ff2f4eb18bc44bae4525 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50269dff7375ff2f4eb18bc44bae4525" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50269dff7375ff2f4eb18bc44bae4525 = L.map(
+                "map_50269dff7375ff2f4eb18bc44bae4525",
+                {
+                    center: [37.5700249, 126.9836398],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ad95c66f2832b38a97cc871f1bc04cc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3ad95c66f2832b38a97cc871f1bc04cc.addTo(map_50269dff7375ff2f4eb18bc44bae4525);
+        
+    
+            var marker_7dad0df263b867c197337f12537be233 = L.marker(
+                [37.569918, 126.984528],
+                {
+}
+            ).addTo(map_50269dff7375ff2f4eb18bc44bae4525);
+        
+    
+        var popup_1cc430193e3e1f43ac4da7fbed5e8532 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_481fcf9d4dd63f72bea14d8f4c6593e1 = $(`<div id="html_481fcf9d4dd63f72bea14d8f4c6593e1" style="width: 100.0%; height: 100.0%;">종각점</div>`)[0];
+                popup_1cc430193e3e1f43ac4da7fbed5e8532.setContent(html_481fcf9d4dd63f72bea14d8f4c6593e1);
+            
+        
+
+        marker_7dad0df263b867c197337f12537be233.bindPopup(popup_1cc430193e3e1f43ac4da7fbed5e8532)
+        ;
+
+        
+    
+    
+            var marker_be7fec5e5d10832bc5b100df52189c62 = L.marker(
+                [37.569058, 126.986013],
+                {
+}
+            ).addTo(map_50269dff7375ff2f4eb18bc44bae4525);
+        
+    
+        var popup_c204dea20d279941448dc191d5191aea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d9db32124695538fb7f6c47d28f1db4 = $(`<div id="html_9d9db32124695538fb7f6c47d28f1db4" style="width: 100.0%; height: 100.0%;">종로관철점</div>`)[0];
+                popup_c204dea20d279941448dc191d5191aea.setContent(html_9d9db32124695538fb7f6c47d28f1db4);
+            
+        
+
+        marker_be7fec5e5d10832bc5b100df52189c62.bindPopup(popup_c204dea20d279941448dc191d5191aea)
+        ;
+
+        
+    
+    
+            var marker_2938a9332be44e2030af3c1f55e06032 = L.marker(
+                [37.572662, 126.981138],
+                {
+}
+            ).addTo(map_50269dff7375ff2f4eb18bc44bae4525);
+        
+    
+        var popup_c3bf12cf5a8b4b239588fe4b0cebbd91 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_89623060f50c345bb293821ab6f87d0a = $(`<div id="html_89623060f50c345bb293821ab6f87d0a" style="width: 100.0%; height: 100.0%;">종로구청점</div>`)[0];
+                popup_c3bf12cf5a8b4b239588fe4b0cebbd91.setContent(html_89623060f50c345bb293821ab6f87d0a);
+            
+        
+
+        marker_2938a9332be44e2030af3c1f55e06032.bindPopup(popup_c3bf12cf5a8b4b239588fe4b0cebbd91)
+        ;
+
+        
+    
+</script>
+</html>
